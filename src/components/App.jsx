@@ -7,9 +7,9 @@ import {
 	// addContacts,
 	// deleteContacts,
 	changeFilter,
-} from './redux/contactSlice';
+} from '../redux/contactSlice';
 import { useDispatch, useSelector } from 'react-redux';
-import { getContact, addContact, deleteContact } from './redux/operation';
+import { getContact, addContact, deleteContact } from '../redux/operation';
 import { useEffect } from 'react';
 
 export function App() {
