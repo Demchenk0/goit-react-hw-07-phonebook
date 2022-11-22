@@ -16,7 +16,7 @@ export function App() {
 	const state = useSelector(state => state);
 	const dispatch = useDispatch();
 	if (state.contacts.error) {
-		alert('Так Лера Сказала ');
+		alert('Error. Pls try again');
 	}
 	useEffect(() => {
 		dispatch(getContact());
